@@ -1,11 +1,18 @@
 
 const SET_REPOS = 'SET_REPOS';
 const SET_IS_FETCHING = 'SET_IS_FETCHING';
+const SET_CURRENT_PAGE = 'SET_CURRENT_PAGE';
+
+
+
 
 
 const defaultState = {
     items: [],
     isFetching: false,
+    currentPage: 1,
+    perPage:10,
+    totalCount:0,
 
 };
 
@@ -15,6 +22,7 @@ export default function  reposReducer(state = defaultState, action) {
             return {
                 ...state,
                 items: action.payload.items,
+                totalCount: action.payload.total_count,
                 isFetching: false
 
             }
@@ -23,11 +31,20 @@ export default function  reposReducer(state = defaultState, action) {
                 ...state,
                 isFetching: action.payload
             }
+        case SET_CURRENT_PAGE:
+            return {
+                ...state,
+                currentPage: action.payload
+            }
+
         default:
             return state;
     }
 };
 
+
 export const setRepos = (repos) => ({type:SET_REPOS, payload: repos})
 export const setIsFetching = (bool) => ({type:SET_IS_FETCHING, payload: bool})
+export const setCurrentPage = (currentPage) => ({type:SET_CURRENT_PAGE, payload: currentPage})
+
 

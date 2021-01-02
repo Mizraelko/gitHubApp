@@ -3,22 +3,35 @@ import './main.less';
 import {useDispatch, useSelector} from "react-redux";
 import {getResponse} from "../axios/actionsRepos/repos";
 import Repo from "./Repos/Repo";
+import {setCurrentPage} from "../../reducers/reposReducers";
+import {createPages} from "../util/createPages";
 
 
 const Main = () => {
     const dispatch = useDispatch();
     const repos = useSelector(state => state.reposReducer.items);
-    const isFetching = useSelector(state => state.reposReducer.isFetching)
+    const isFetching = useSelector(state => state.reposReducer.isFetching);
+    const currentPage = useSelector(state => state.reposReducer.currentPage);
+    const perPage = useSelector(state => state.reposReducer.perPage);
+    const totalCount = useSelector(state => state.reposReducer.totalCount);
     const [searchValue, setSearchValue] = useState('');
+    const pagesCount = Math.ceil(totalCount/perPage);
+    const pages = [];
+    createPages(pages, pagesCount, currentPage);
+
+
 
 
     useEffect(() => {
-        dispatch(getResponse())
-    }, [])
+        dispatch(getResponse(searchValue, currentPage, perPage));
+
+    }, [currentPage]);
 
     function searchHandler() {
-        dispatch(getResponse(searchValue))
+        dispatch(setCurrentPage(1));
+        dispatch(getResponse(searchValue, currentPage, perPage));
     }
+
 
     return (
 
@@ -32,6 +45,15 @@ const Main = () => {
                 {
                     isFetching === false ? repos.map((repo) => { return <div className='element'><Repo repo={repo}/></div>}) : <div className='fetching'></div>
                 }
+            </div>
+            <div className="pages">
+                {pages.map((page, index) =>
+                    <span
+                        key={index}
+                        className={currentPage === page ? 'selected' : 'page'}
+                        onClick={() => dispatch(setCurrentPage(page))}>
+                        {page}
+                    </span> )}
             </div>
 
         </div>
