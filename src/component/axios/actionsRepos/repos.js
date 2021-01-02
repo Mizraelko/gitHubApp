@@ -13,3 +13,7 @@ export const getResponse = (searchQuery = 'stars:%3E1', currentPage, perPage) =>
 
     }
 }
+export const getCurrentRepo = async (username, repoName, setRepo) => {
+    const response = await axios.get(`https://api.github.com/repos/${username}/${repoName}`)
+    setRepo(response)
+    }

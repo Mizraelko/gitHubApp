@@ -43,7 +43,7 @@ const Main = () => {
             </div>
             <div>
                 {
-                    isFetching === false ? repos.map((repo) => { return <div className='element'><Repo repo={repo}/></div>}) : <div className='fetching'></div>
+                    isFetching === false ? repos.map((repo) => { return <div className='element' key={repo.id}><Repo repo={repo}/></div>}) : <div className='fetching'></div>
                 }
             </div>
             <div className="pages">

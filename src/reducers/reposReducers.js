@@ -13,7 +13,6 @@ const defaultState = {
     currentPage: 1,
     perPage:10,
     totalCount:0,
-
 };
 
 export default function  reposReducer(state = defaultState, action) {

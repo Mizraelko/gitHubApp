@@ -9,10 +9,12 @@ module.exports =  {
     output: {   //куда сам webpack будет собирать файлы
         path: path.resolve(__dirname, 'dist'), // указываем название папки куда webpack будет собирать файлы
         filename: '[name].[hash].js',    //имя файла куда webpack будет делать сборку всех js файлов,регулярное выражение поможет избавиться от проблем с хэшированием
+        publicPath: "/" //чтобы не было проблем с хэшированием
     },
 
     devServer: {
-        port: 3000  //указываем порт.
+        port: 3000,  //указываем порт.
+        historyApiFallback: true //Чтобы не возникало проблем с роутами
     },
     resolve: {
         extensions: ['.js', '.jsx']
