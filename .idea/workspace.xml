@@ -1,42 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:origin/main" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </select>
+    <expand />
+    <select />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d83b9ad-4f1d-4142-9b7e-5daf1f5cc76b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/component/main/Card/card.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/main/Card/Сard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ .prettierignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/app.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/app.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/axios/actionsRepos/repos.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/axios/actionsRepos/repos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/main/Card/Сard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/main/Card/Сard.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/main/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/main/Main.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/main/Repos/Repo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/main/Repos/Repo.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/main/Repos/repo.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/main/Repos/repo.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/main/main.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/main/main.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/util/createPages.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/util/createPages.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/reducers/reposReducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/reposReducers.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,10 +41,34 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1609633792" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="ProjectId" id="1mLXOZzAZU7W532p0ppLgGsRIkN" />
   <component name="ProjectViewState">
@@ -68,8 +81,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="add_unversioned_files" value="true" />
+    <property name="add_unversioned_files" value="true&#10;C:/Users/vkopo/WebstormProjects/gitHubApp/.prettierrc.json" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettier.import.notification.dismissed" value="true" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\vkopo\WebstormProjects\gitHubApp\node_modules\prettier" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -102,6 +117,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.start" />
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
   </component>
@@ -128,7 +145,9 @@
       <workItem from="1609548381339" duration="391000" />
       <workItem from="1609584809233" duration="4729000" />
       <workItem from="1609600554171" duration="7157000" />
-      <workItem from="1609629720243" duration="1660000" />
+      <workItem from="1609629720243" duration="4178000" />
+      <workItem from="1609683619460" duration="171000" />
+      <workItem from="1609704602714" duration="357000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1609548521268</created>
@@ -151,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609603111063</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add img and card">
+      <created>1609631417002</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1609631417003</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,6 +186,31 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State>
@@ -185,7 +236,8 @@
     <MESSAGE value="add files" />
     <MESSAGE value="add" />
     <MESSAGE value="create pagination" />
-    <option name="LAST_COMMIT_MESSAGE" value="create pagination" />
+    <MESSAGE value="add img and card" />
+    <option name="LAST_COMMIT_MESSAGE" value="add img and card" />
   </component>
   <component name="WindowStateProjectService">
     <state x="476" y="128" key="#Inspections" timestamp="1609508343789">
@@ -200,6 +252,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="615" y="252" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.860@0.0.1600.860" timestamp="1609355539782" />
+    <state x="92" y="92" width="1416" height="676" key="DiffContextDialog" timestamp="1609633921704">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="92" y="92" width="1416" height="676" key="DiffContextDialog/0.0.1600.860@0.0.1600.860" timestamp="1609633921704" />
     <state width="1225" height="206" key="GridCell.Tab.0.bottom" timestamp="1609364586462">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -268,14 +324,22 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="430" y="185" key="IDE.errors.dialog/0.0.1600.860@0.0.1600.860" timestamp="1609351576528" />
+    <state x="585" y="132" key="RollbackChangesDialog" timestamp="1609633703071">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="585" y="132" key="RollbackChangesDialog/0.0.1600.860@0.0.1600.860" timestamp="1609633703071" />
     <state x="301" y="75" key="SettingsEditor" timestamp="1609548335679">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="301" y="75" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1609548335679" />
-    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1609585044747">
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1609631467848">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1609585044747" />
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1609631467848" />
+    <state x="617" y="344" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609633867359">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="617" y="344" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.860@0.0.1600.860" timestamp="1609633867359" />
     <state x="456" y="195" key="run.anything.popup" timestamp="1609540312801">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
