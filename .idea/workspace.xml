@@ -6,27 +6,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d83b9ad-4f1d-4142-9b7e-5daf1f5cc76b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/ .prettierignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/App.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/app.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/axios/actionsRepos/repos.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/main/Card/card.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/main/Card/Сard.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/main/Main.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/main/Repos/Repo.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/main/Repos/repo.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/main/main.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/util/createPages.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/reposReducers.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/repo/Repo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/repo/Repo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/repo/repo.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/repo/repo.less" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +136,7 @@
       <workItem from="1610379785143" duration="1484000" />
       <workItem from="1610384050959" duration="29000" />
       <workItem from="1610384222194" duration="501000" />
-      <workItem from="1610384800031" duration="51000" />
+      <workItem from="1610384800031" duration="587000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1609548521268</created>
@@ -190,7 +173,21 @@
       <option name="project" value="LOCAL" />
       <updated>1609705001076</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add error, refactor code">
+      <created>1610384909726</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1610384909726</updated>
+    </task>
+    <task id="LOCAL-00007" summary="refactor">
+      <created>1610385043872</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1610385043872</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,7 +247,9 @@
     <MESSAGE value="create pagination" />
     <MESSAGE value="add img and card" />
     <MESSAGE value="add" />
-    <option name="LAST_COMMIT_MESSAGE" value="add" />
+    <MESSAGE value="add error, refactor code" />
+    <MESSAGE value="refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor" />
   </component>
   <component name="WindowStateProjectService">
     <state x="476" y="128" key="#Inspections" timestamp="1609508343789">
@@ -349,10 +348,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="301" y="75" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1609548335679" />
-    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1609705014357">
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1610385048521">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1609705014357" />
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1610385048521" />
     <state x="617" y="344" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609633867359">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -361,5 +360,16 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="456" y="195" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1609540312801" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/index.jsx</url>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

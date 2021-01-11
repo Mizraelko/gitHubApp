@@ -1,14 +1,11 @@
 import React from 'react';
 import './app.less'
-import {useDispatch, useSelector} from "react-redux";
 import {BrowserRouter, Route, Switch, Redirect} from "react-router-dom";
 import Main from "./main/Main";
 import Card from "./card/card";
 import Error from "./main/Error";
 
 const App = () => {
-    const dispatch = useDispatch()
-
 
     return (
         <BrowserRouter>
