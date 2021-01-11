@@ -6,25 +6,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d83b9ad-4f1d-4142-9b7e-5daf1f5cc76b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ .prettierignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ .prettierignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/app.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/app.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/axios/actionsRepos/repos.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/axios/actionsRepos/repos.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/main/Card/Сard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/main/Card/Сard.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/main/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/main/Main.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/main/Repos/Repo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/main/Repos/Repo.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/main/Repos/repo.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/main/Repos/repo.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/main/main.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/main/main.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/util/createPages.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/util/createPages.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/App.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/app.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/axios/actionsRepos/repos.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/main/Card/card.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/main/Card/Сard.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/main/Main.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/main/Repos/Repo.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/main/Repos/repo.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/main/main.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/util/createPages.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/reposReducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/reposReducers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/reposReducers.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -147,7 +148,12 @@
       <workItem from="1609600554171" duration="7157000" />
       <workItem from="1609629720243" duration="4178000" />
       <workItem from="1609683619460" duration="171000" />
-      <workItem from="1609704602714" duration="357000" />
+      <workItem from="1609704602714" duration="418000" />
+      <workItem from="1609773666572" duration="471000" />
+      <workItem from="1610379785143" duration="1484000" />
+      <workItem from="1610384050959" duration="29000" />
+      <workItem from="1610384222194" duration="501000" />
+      <workItem from="1610384800031" duration="51000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1609548521268</created>
@@ -177,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609631417003</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add">
+      <created>1609705001076</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1609705001076</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,10 +247,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add files" />
-    <MESSAGE value="add" />
     <MESSAGE value="create pagination" />
     <MESSAGE value="add img and card" />
-    <option name="LAST_COMMIT_MESSAGE" value="add img and card" />
+    <MESSAGE value="add" />
+    <option name="LAST_COMMIT_MESSAGE" value="add" />
   </component>
   <component name="WindowStateProjectService">
     <state x="476" y="128" key="#Inspections" timestamp="1609508343789">
@@ -252,26 +265,30 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="615" y="252" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.860@0.0.1600.860" timestamp="1609355539782" />
+    <state x="530" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1610384622851">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="530" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.860@0.0.1600.860" timestamp="1610384622851" />
     <state x="92" y="92" width="1416" height="676" key="DiffContextDialog" timestamp="1609633921704">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="92" y="92" width="1416" height="676" key="DiffContextDialog/0.0.1600.860@0.0.1600.860" timestamp="1609633921704" />
-    <state width="1225" height="206" key="GridCell.Tab.0.bottom" timestamp="1609364586462">
+    <state width="1579" height="221" key="GridCell.Tab.0.bottom" timestamp="1610384386970">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1225" height="206" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1609364586462" />
-    <state width="1225" height="206" key="GridCell.Tab.0.center" timestamp="1609364586461">
+    <state width="1579" height="221" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1610384386970" />
+    <state width="1579" height="221" key="GridCell.Tab.0.center" timestamp="1610384386970">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1225" height="206" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1609364586461" />
-    <state width="1225" height="206" key="GridCell.Tab.0.left" timestamp="1609364586461">
+    <state width="1579" height="221" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1610384386970" />
+    <state width="1579" height="221" key="GridCell.Tab.0.left" timestamp="1610384386970">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1225" height="206" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1609364586461" />
-    <state width="1225" height="206" key="GridCell.Tab.0.right" timestamp="1609364586462">
+    <state width="1579" height="221" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1610384386970" />
+    <state width="1579" height="221" key="GridCell.Tab.0.right" timestamp="1610384386970">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1225" height="206" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1609364586462" />
+    <state width="1579" height="221" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1610384386970" />
     <state width="1225" height="256" key="GridCell.Tab.1.bottom" timestamp="1609277968453">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -332,10 +349,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="301" y="75" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1609548335679" />
-    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1609631467848">
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1609705014357">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1609631467848" />
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1609705014357" />
     <state x="617" y="344" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609633867359">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
